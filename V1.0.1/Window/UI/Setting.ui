@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ServerWindow</class>
+ <widget class="QMainWindow" name="ServerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>481</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>用户标识 (UA)</string>
+    </property>
+    <widget class="ToolButton" name="UAHelpButton">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>20</y>
+       <width>41</width>
+       <height>33</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="PrimaryToolButton" name="UAButton">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>20</y>
+       <width>41</width>
+       <height>33</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="LineEdit" name="UAInput">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>361</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>User Agent</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>481</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>下载地址</string>
+    </property>
+    <widget class="PrimaryToolButton" name="DownloadPathButton">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>60</y>
+       <width>41</width>
+       <height>33</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="LineEdit" name="DownloadPathInput">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>411</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>选默认不生效，点击确认按钮加载</string>
+     </property>
+    </widget>
+    <widget class="CaptionLabel" name="DownloadPathLabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>411</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>* 默认路径为桌面上的表情包文件夹。点击确认按钮自动选择自定义路径。</string>
+     </property>
+     <property name="lightColor" stdset="0">
+      <color>
+       <red>58</red>
+       <green>58</green>
+       <blue>58</blue>
+      </color>
+     </property>
+     <property name="darkColor" stdset="0">
+      <color>
+       <red>198</red>
+       <green>198</green>
+       <blue>198</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="ToolButton" name="FileChooseDialog">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>100</y>
+       <width>41</width>
+       <height>33</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>461</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="RadioButton" name="RadioButton">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="text">
+         <string>默认路径</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="RadioButton" name="RadioButton_2">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>自定义路径</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="CardWidget" name="CardWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>481</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <widget class="ImageLabel" name="ImageLabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>72</width>
+       <height>72</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="LargeTitleLabel" name="LargeTitleLabel">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>361</width>
+       <height>54</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bilibili Emoji Getter</string>
+     </property>
+    </widget>
+    <widget class="CommandBar" name="CommandBar">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>80</y>
+       <width>141</width>
+       <height>34</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="BodyLabel" name="BodyLabel">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>60</y>
+       <width>151</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>LimeBow Studios 出品</string>
+     </property>
+    </widget>
+    <widget class="StrongBodyLabel" name="StrongBodyLabel">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>80</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>V1.0.1</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ToolButton</class>
+   <extends>QToolButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>PrimaryToolButton</class>
+   <extends>ToolButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>RadioButton</class>
+   <extends>QRadioButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>CardWidget</class>
+   <extends>QFrame</extends>
+   <header>qfluentwidgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CaptionLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>BodyLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>StrongBodyLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>LargeTitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>ImageLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>CommandBar</class>
+   <extends>QFrame</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

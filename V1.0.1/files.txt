@@ -1,0 +1,44 @@
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\charset_normalizer\*"; DestDir: "{app}\charset_normalizer\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\*"; DestDir: "{app}\PyQt5\"; Flags: ignoreversion recursesubdirs createallsubdirs
+
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\Qt5\*"; DestDir: "{app}\PyQt5\Qt5\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\Qt5\bin\*"; DestDir: "{app}\PyQt5\Qt5\bin\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\Qt5\plugins\*"; DestDir: "{app}\PyQt5\Qt5\plugins\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\Qt5\translations\*"; DestDir: "{app}\PyQt5\Qt5\translations\"; Flags: ignoreversion recursesubdirs createallsubdirs
+
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\Qt5\plugins\generic\*"; DestDir: "{app}\PyQt5\Qt5\plugins\generic\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\Qt5\plugins\iconengines\*"; DestDir: "{app}\PyQt5\Qt5\plugins\iconengines\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\Qt5\plugins\imageformats\*"; DestDir: "{app}\PyQt5\Qt5\plugins\imageformats\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\Qt5\plugins\platforms\*"; DestDir: "{app}\PyQt5\Qt5\plugins\platforms\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\Qt5\plugins\platformthemes\*"; DestDir: "{app}\PyQt5\Qt5\plugins\platformthemes\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\Qt5\plugins\styles\*"; DestDir: "{app}\PyQt5\Qt5\plugins\styles\"; Flags: ignoreversion recursesubdirs createallsubdirs
+
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\PyQt5\uic\widget-plugins\*"; DestDir: "{app}\PyQt5\uic\widget-plugins\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\pywin32_system32\*"; DestDir: "{app}\PyQt5\pywin32_system32\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\win32\*"; DestDir: "{app}\PyQt5\win32\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\Window\UI\*"; DestDir: "{app}\PyQt5\Window\UI\"; Flags: ignoreversion recursesubdirs createallsubdirs
+
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\base_library.zip"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\ffi.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\LIBBZ2.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\libcrypto-3-x64.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\liblzma.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\libssl-3-x64.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\MSVCP140.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\pyexpat.pyd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\python3.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\python310.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\select.pyd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\unicodedata.pyd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\VCRUNTIME140.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\VCRUNTIME140_1.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\zlib.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\_bz2.pyd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\_ctypes.pyd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\_elementtree.pyd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\_hashlib.pyd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\_lzma.pyd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\_queue.pyd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\_socket.pyd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\PythonProjects\Bilibili-Emoji-Getter\dist\main\_ssl.pyd"; DestDir: "{app}"; Flags: ignoreversion
